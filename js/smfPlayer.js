@@ -16,7 +16,7 @@ var SmfPlayer = function(output) {
 SmfPlayer.prototype={
     init: function(midiFile, latency, eventNo) {
         this.midiFile=midiFile;
-        this.latency=latency;
+        this.latency=10;
 
         this.trackStates = [];
 	      this.beatsPerMinute = 120;
